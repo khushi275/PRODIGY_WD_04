@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Khushi Patel - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">KHUSHI PATEL</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Khushi Patel</h1>
+            <p>I’m a passionate Web Developer, dedicated to creating beautiful and functional websites and applications.</p>
+            <p>With expertise in HTML, CSS, JavaScript, and various modern frameworks, I design seamless digital experiences that engage users.</p>
+            <button onclick="scrollToSection('about')">Learn More About Me</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-header">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-details">
+                <div class="about-info">
+                    <h3>Background & Passion</h3>
+                    <p>Ever since I wrote my first line of code, I’ve been hooked on the endless possibilities that programming offers. I started my career as a self-taught developer, experimenting with different technologies and building personal projects. I eventually pursued a formal education in Computer Science to solidify my knowledge and hone my skills. Today, I am a proficient web developer with a focus on creating engaging front-end experiences.</p>
+                </div>
+                <div class="about-education">
+                    <h3>Education</h3>
+                    <ul>
+                        <li>Bachelor's Degree in Computer Science – XYZ University (2018-2022)</li>
+                        <li>Web Development Bootcamp – Code Academy (2023)</li>
+                    </ul>
+                </div>
+                <div class="about-experience">
+                    <h3>Professional Experience</h3>
+                    <p>In my career, I’ve had the opportunity to work on various web development projects, collaborating with clients to create responsive websites and innovative web apps. Here’s a quick overview:</p>
+                    <ul>
+                        <li>Front-End Developer at ABC Corp (2022-Present)</li>
+                        <li>Intern at DEF Agency – Worked on UI/UX Design and Web Optimization (2021)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="projects-content">
+            <h2>My Projects</h2>
+            <div class="project-cards">
+                <!-- Project 1: Responsive Landing Page -->
+                <div class="project-card">
+                    <h3>Responsive Landing Page</h3>
+                    <p>This project is a fully responsive landing page designed to adjust across all screen sizes. It features a modern, clean layout with smooth animations and user-friendly navigation.</p>
+                    <button onclick="window.location.href='https://github.com/khushi275/PRODIGY_WD_01'">View on GitHub</button>
+                </div>
+    
+                <!-- Project 2: Spotwatch Web Application -->
+                <div class="project-card">
+                    <h3>Spotwatch Web Application</h3>
+                    <p>A web application built to track Spotify music listening habits. It allows users to view their most-played tracks and playlists using the Spotify API.</p>
+                    <button onclick="window.location.href='https://github.com/khushi275/PRODIGY_WD_02'">View on GitHub</button>
+                </div>
+    
+                <!-- Project 3: Tic Tac Toe Web Application -->
+                <div class="project-card">
+                    <h3>Tic Tac Toe Web Application</h3>
+                    <p>A simple yet interactive Tic Tac Toe game, designed with JavaScript and CSS. Play against a friend or the computer!</p>
+                    <button onclick="window.location.href='https://github.com/khushi275/PRODIGY_WD_03'">View on GitHub</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <div class="contact-content">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Your Name | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
